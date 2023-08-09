@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
-import logo from "./assets/logo.svg";
+// import logo from "./assets/logo.svg";
 //styles & asssets
 import "./App.scss";
-import { NavLink, Route, Routes, Link } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 
 //copmonents
 import TheNavigation from "./components/TheNavigation";

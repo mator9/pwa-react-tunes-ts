@@ -5,7 +5,9 @@ import logo from "../assets/logo.svg";
 type Props = {};
 
 const Home = (props: Props) => {
-  const [title, setTitle] = useState("Test this !");
+  const [title] = useState("Test this !");
+
+  // const [title, setTitle] = useState("Test this !");
 //   useEffect(() => {
 //     document.title = title;
 //   });

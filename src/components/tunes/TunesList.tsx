@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { Song } from "../../types";
 import "./TunesList.scss";
 import TunesSong from "./TunesSong";
