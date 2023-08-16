@@ -7,7 +7,7 @@ const About = (props: Props) => {
   return (
     <div>
       <h1>About</h1>
-      <p>about</p>
+      <p>about my app</p>
     </div>
   );
 };

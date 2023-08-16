@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PWA React Tunes",
+  "name": "PWA React Tunes App Sample",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#e5e5e5",
-  "background_color": "#ffffff"
+  "theme_color": "#ffe5e5",
+  "background_color": "#0000ff"
 }
