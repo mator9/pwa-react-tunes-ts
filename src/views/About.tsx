@@ -7,7 +7,7 @@ const About = (props: Props) => {
   return (
     <div>
       <h1>About</h1>
-      <p>about my app</p>
+      <p>about my app react tunes</p>
     </div>
   );
 };
