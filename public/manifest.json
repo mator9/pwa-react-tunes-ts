@@ -1,11 +1,18 @@
 {
+  "id" : "PWAReactTunes",
   "short_name": "PWA React Tunes",
-  "name": "PWA React Tunes App Sample",
+  "name": "PWA React Tunes App",
+  "description": "An app that loads itunes samples",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "logo144.png",
+      "type": "image/png",
+      "sizes": "144x144"
     },
     {
       "src": "logo192.png",
@@ -20,6 +27,6 @@
   ],
   "start_url": ".",
   "display": "fullscreen",
-  "theme_color": "#ffe5e5",
+  "theme_color": "#e5e5e5",
   "background_color": "#0000ff"
 }
