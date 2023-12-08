@@ -4,12 +4,16 @@
 html {
 	min-height: calc(100% + env(safe-area-inset-top));
 	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+
   }
 
 body {
 	font-size: 16px;
 	color: white;
 	background-color: #282c34;
+
+	  /* Disables pull-to-refresh but allows overscroll glow effects. */
+	  overscroll-behavior-y: contain;
 }
 
 a {
