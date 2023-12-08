@@ -12,8 +12,8 @@ body {
 	color: white;
 	background-color: #282c34;
 
-	  /* Disables pull-to-refresh but allows overscroll glow effects. */
-	  overscroll-behavior-y: contain;
+	  /* Disables pull-to-refresh and overscroll glow effects. */
+	  overscroll-behavior-y: none;
 }
 
 a {
