@@ -1,0 +1,15 @@
+.browser-only, .standalone-only {
+    display: none;
+}
+
+@media (display-mode: browser) {
+    .browser-only {
+      display: block
+    }
+}
+
+@media (display-mode: standalone) {
+    .standalone-only {
+      display: block
+    }
+}

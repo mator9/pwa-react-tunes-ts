@@ -100,6 +100,12 @@ const About = (props: Props) => {
       <output/>
       <h1>About</h1>
       <p>about my app react tunes5</p>
+      <div className="browser-only">
+        You are using browser.
+      </div>
+      <div className="standalone-only">
+        You are using app.
+      </div>
     </div>
   );
 };
