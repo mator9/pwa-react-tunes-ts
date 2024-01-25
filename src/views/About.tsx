@@ -100,10 +100,19 @@ const About = (props: Props) => {
       <output/>
       <h1>About</h1>
       <p>about my app react tunes5</p>
-      <div className="browser-only">
+      <div className="mode fullscreen">
+        You are using fullscreen.
+      </div>
+      <div className="mode minimal-ui">
+        You are using minimal-ui.
+      </div>
+      <div className="mode window-controls-overlay">
+        You are using window-controls-overlay.
+      </div>
+      <div className="mode browser-only">
         You are using browser.
       </div>
-      <div className="standalone-only">
+      <div className="mode standalone-only">
         You are using app.
       </div>
     </div>
