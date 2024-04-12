@@ -99,7 +99,7 @@ const About = (props: Props) => {
     <div>
       <output/>
       <h1>About</h1>
-      <p>about my app react tunes8</p>
+      <p>about my app react tunes9</p>
       <div className="mode fullscreen">
         You are using fullscreen.
       </div>
