@@ -10,11 +10,11 @@
 body {
 	font-size: 16px;
 	color: black;
-	background-color: #bcbfc5;
-	// background: var(
-	// 	--Linear,
-	// 	linear-gradient(342deg, #fbc2eb -2.41%, #a6c1ee 79.29%)
-	//   );
+	// background-color: #bcbfc5;
+	background: var(
+		--Linear,
+		linear-gradient(342deg, #fbc2eb -2.41%, #a6c1ee 79.29%)
+	  );
 
 	  /* Disables pull-to-refresh and overscroll glow effects. */
 	  overscroll-behavior-y: none;
